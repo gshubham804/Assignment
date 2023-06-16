@@ -1,0 +1,29 @@
+.student-list-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .student-card {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin:1rem;
+  }
+  
+  .student-name {
+    font-weight: bold;
+  }
+  
+  .student-email,
+  .student-phone,
+  .student-marks,
+  .student-pass {
+    margin-bottom: 5px;
+  }
+
+  .edit-button{
+    cursor: pointer;
+  }
+  
